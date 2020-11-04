@@ -1,0 +1,62 @@
+.footer {
+    padding: 0 18%;
+    margin-top: 75px;
+    background: #F7F7F7;
+}
+.footer-menu {
+    padding: 33px 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 891px;
+}
+
+.footer-menu__item {
+    width: 160px;
+    margin: 0 5px;
+    & a {
+        margin-right: 13px;
+        color: #000000;
+    }
+}
+
+.footer-menu__item-name {
+    font-family: 'Cormorant Garamond';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 19px;
+    letter-spacing: 1.16364px;
+    color: #000000;
+    padding-bottom: 15px;
+}
+
+.footer-menu__item-list {
+    & li {
+        font-family: Poppins;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 12px;
+        line-height: 19px;
+        letter-spacing: 0.1px;
+        margin: 4px 0;
+        & a {
+            text-decoration: none;
+            color: #000000;
+        }
+    }
+}
+.footer-menu-for-phone {
+    display: none;
+}
+.footer-info {
+    text-align: center;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 9px;
+    line-height: 13px;
+    text-align: center;
+    letter-spacing: 0.5px;
+    color: #000000;
+}

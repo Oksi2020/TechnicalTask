@@ -1,0 +1,129 @@
+@media screen and(max-width: 600px) { 
+    .header__top {
+        display: none;
+    }
+    .navigation {
+        padding-bottom: 20px;
+    }
+    .wrapper{
+        top:0;
+        background-position: 65%;
+    }
+    .navigation__search-item {
+        display: none;
+    }
+    .navigation__search-item.phone {
+        display: block;
+        background: rgba(#FFFFFF, 0.24);
+        mix-blend-mode: normal;
+        border-radius: 3px;
+        width: 100%;
+        height: 48px;
+        font-family: Poppins;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 11px;
+        line-height: 16px;
+        letter-spacing: 0.8px;
+        padding-left: 10px;
+        border: 0px;
+        padding-right: 15px;
+        color: inherit;
+        background-image: url("../assets/search.png");
+        background-repeat: no-repeat;
+        background-position: right 3% center;
+
+        &::placeholder {
+            color: inherit;
+        }
+    }
+    .navigation__sign-in {
+        display: none;
+    }
+    .navigation__cart {
+        margin-top: 10px;
+    }
+    .navigation__phone {
+        padding-left: 10px;
+        display: flex;
+        flex-direction: row;
+        padding-top: 25px;
+        font-size: 1.3em;
+        div {
+            margin: 5px 10px;
+        }
+    }
+    .navigation__menu {
+        display: none;
+    } 
+    .container-info__text {
+        display: none;
+    }
+    .container-registration__form {
+        width: 100%!important;
+        padding: 32px 15px!important;
+    }
+    .footer {
+        margin-top: 55px;
+        padding: 0;
+        .footer-menu {
+            display: none;
+        }
+        .footer-menu-for-phone {
+            display: block;
+            padding: 20px;
+        }
+    }
+    .footer-menu-for-phone-item {
+        border-bottom:  1px solid #E1E0E1;
+        padding: 10px;
+
+    }
+    .footer-menu-main {
+        display: flex;
+        justify-content: space-between;
+        .footer-menu-for-phone-item__item-name {
+            font-family: Cormorant Garamond;
+            font-style: normal;
+            font-weight: bold;
+            font-size: 19px;
+            line-height: 19px;
+            letter-spacing: 1.16364px;
+            padding-bottom: 13px;
+            color: #000000;
+        }
+        .footer-menu-for-phone-item__show-item.rotate {
+            transform: rotate(90deg);
+            transition: transform 0.5s ease;
+        }
+    }
+
+    .footer-menu-list {
+        display: none;
+        ul {
+            margin: 0;
+            padding: 0;
+            list-style-type: none;
+            li a {
+                text-decoration:none;
+                color: #000000;
+            }
+        }
+    }
+
+    .footer-menu-list.footer-menu-list--show-list {
+        display: block;
+        
+    }
+
+    .footer-menu-for-phone-social {
+        padding: 15px 20%;
+        display: flex;
+        justify-content: space-around;
+        a {
+            color: #000000;
+        }
+        font-size: 1.4em;
+        padding-bottom: 0;
+    }
+}
